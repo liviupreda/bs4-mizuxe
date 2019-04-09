@@ -10,17 +10,71 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Bootstrap Theme</title>
   </head>
   <body>
-    <!-- START HERE -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="img/mlogo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Meet The Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">
+                Do What You Dream Of...
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusamus, libero.
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                <i class="fas fa-arrow-right"></i> Read More
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="img/book.png"
+                alt=""
+                class="img-fluid d-none d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
